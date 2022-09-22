@@ -4,11 +4,14 @@ public class SingletonMain {
 
     public static void main(String[] args) {
 
+        // tạo đối tượng bằng cách gọi hàm getInstance
+
         Singleton x = Singleton.getInstance();
 
         Singleton y = Singleton.getInstance();
 
         Singleton z = Singleton.getInstance();
+
 
         System.out.println("Hashcode of x is "
                 + x.hashCode());
